@@ -1,0 +1,57 @@
+/* Global styles */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000000; /* Change this to set the overall background */
+  color: #ffffff;
+}
+
+/* App container */
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Page content area */
+.placeholder,
+.streamlist {
+  background-color: #000000; /* Page section background */
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgb(0, 0, 0);
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+input[type="text"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #022952;
+  border-radius: 4px;
+}
+
+button[type="submit"] {
+  background-color: #000000; 
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #000000;
+}
+
+button[type="submit"]:hover {
+  background-color: #000000;
+}
